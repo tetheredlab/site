@@ -8,7 +8,7 @@ permalink: /contact/
 
 Have a question or idea? Use the form below:
 
-<form action="https://formspree.io/f/your-form-id" method="POST">
+<form action="https://formspree.io/f/mdklojyo" method="POST">
   <label>Your Name:
     <input type="text" name="name" required>
   </label><br><br>
