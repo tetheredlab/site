@@ -2,4 +2,38 @@
 ---
 
 @import "minima";
-@import "style";   // this looks for _sass/_style.scss
+
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #121212 !important;
+    color: #e4e4e4 !important;
+  }
+
+  a {
+    color: #80cbc4 !important;
+  }
+
+  header, footer, nav {
+    background: #1e1e1e !important;
+    color: #ccc !important;
+  }
+
+  h1, h2, h3, h4 {
+    color: #fff !important;
+  }
+
+  /* Navigation links */
+  .site-nav .page-link {
+    color: #e4e4e4 !important;
+  }
+
+  .site-nav .page-link:hover {
+    color: #80cbc4 !important;
+  }
+
+  /* Site title */
+  .site-title {
+    color: #ffffff !important;
+  }
+}
