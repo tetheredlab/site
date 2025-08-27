@@ -1,9 +1,10 @@
 ---
 layout: page
+title: Contact
 permalink: /contact/
 ---
 
-# Contact
+
 
 Have a question or idea? Use the form below:
 
