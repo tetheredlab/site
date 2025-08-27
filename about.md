@@ -1,8 +1,9 @@
 ---
 layout: page
+title: About
 permalink: /about/
 ---
 
-# About Tethered Lab
+
 
 Coming soon
