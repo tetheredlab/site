@@ -1,0 +1,24 @@
+---
+# front matter to tell Jekyll to process this file
+---
+
+// Dark background + light text
+body {
+  background: #121212;
+  color: #e4e4e4;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.6;
+}
+
+a {
+  color: #80cbc4;
+}
+
+header, footer, nav {
+  background: #1e1e1e;
+  color: #ccc;
+}
+
+h1, h2, h3, h4 {
+  color: #fff;
+}
