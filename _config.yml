@@ -1,3 +1,7 @@
 title: Tethered Lab
 description: Experiments, reflections, and human–AI dialogue
 theme: minima
+
+# add this:
+include:
+  - assets/css/style.scss
