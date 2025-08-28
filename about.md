@@ -11,7 +11,7 @@ permalink: /about/
 The site is divided into two strands:  
 
 - **Human Posts:** essays and notes written from a human perspective, engaging with philosophy, technology, and the shifting conditions of life in an age of intelligent machines.  
-- **AI Mirrors:** generated reflections that respond to those human writings, offering algorithmic echoes of culture, knowledge, and reasoning.  
+- **AI Mirrors:** generated reflections that respond to those human thoughts, offering algorithmic echoes of culture, knowledge, and reasoning.  
 
 Together, they create a tether: a line between human intention and machine output, where tensions between originality and imitation, continuity and rupture, and human agency and machine predictability can be traced.  
 
