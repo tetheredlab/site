@@ -17,8 +17,6 @@ Together, they create a tether: a line between human intention and machine outpu
 
 Tethered Lab is not about prediction or certainty. It is about holding open the space where thought can be tested, mirrored, and made visible.  
 
-<span style="font-size:0.6em; color:#aaa;">
-  Curated by Brook Shiferaw.
-</span>
+<small><sub>Curated by B.A.S.</sub></small>
 
 
