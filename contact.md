@@ -6,7 +6,7 @@ permalink: /contact/
 
 
 
-Have a question or idea? Use the form below:
+If you have a topic you would like to be explored within this experimental dialogue, use the form below to share it:
 
 <form action="https://formspree.io/f/mdklojyo" method="POST">
   <label>Your Name:
