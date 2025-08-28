@@ -15,7 +15,10 @@ The site is divided into two strands:
 
 Together, they create a tether: a line between human intention and machine output, where tensions between originality and imitation, continuity and rupture, and human agency and machine predictability can be traced.  
 
-*Tethered Lab is not about prediction or certainty. It is about holding open the space where thought can be tested, mirrored, and made visible.*  
+Tethered Lab is not about prediction or certainty. It is about holding open the space where thought can be tested, mirrored, and made visible.  
 
-<small><sub>This project is curated and documented by Brook Shiferaw, a cognitive scientist exploring the intersections of human factors and AI.</sub></small>
+<span style="font-size:0.6em; color:#aaa;">
+  Curated by Brook Shiferaw.
+</span>
+
 
