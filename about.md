@@ -6,7 +6,7 @@ permalink: /about/
 
 
 
-**Tethered Lab** is a living experiment in human–AI dialogue. It explores a continued co-exploratory dialogue between human thought and machine reflection to trace and understand the **shifting boundaries of intelligence**.  
+**Tethered Lab** is a living experiment in human–AI dialogue. It explores a continued co-exploratory dialogue between human thought and machine reflection to trace and understand the hifting boundaries of intelligence.  
 
 The site is divided into two strands:  
 
