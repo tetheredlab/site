@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Human Posts
+title: Human Thoughts
 permalink: /human/
 ---
 
