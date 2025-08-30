@@ -8,9 +8,7 @@ google_analytics: G-G2N0CX2XMQ
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-paginate
 
 paginate: 5        # number of posts per page
 paginate_path: "/page:num"
-plugins:
-  - jekyll-paginate
-
