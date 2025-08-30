@@ -1,39 +1,73 @@
 ---
 ---
 
-@import "minima";
+@import "minima";  /* keep Minima base styles */
 
-/* Dark mode styles */
+/* ========== FOOTER OVERRIDE ========== */
+.site-footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  border-top: 1px solid;
+
+  .footer-heading {
+    margin-bottom: 0.5rem;
+    font-size: 1.25rem;
+  }
+
+  .footer-description {
+    margin-bottom: 1rem;
+  }
+
+  .footer-nav {
+    margin-top: 1rem;
+
+    .page-link {
+      margin: 0 1rem;
+      text-decoration: none;
+    }
+  }
+}
+
+/* ---------- LIGHT MODE ---------- */
+@media (prefers-color-scheme: light) {
+  .site-footer {
+    border-top-color: #ddd;
+
+    .footer-heading { color: #222; }
+    .footer-description { color: #666; }
+
+    .footer-nav .page-link {
+      color: #333;
+      &:hover { color: #000; }
+    }
+  }
+}
+
+/* ---------- DARK MODE ---------- */
 @media (prefers-color-scheme: dark) {
   body {
     background: #121212 !important;
     color: #e4e4e4 !important;
   }
 
-  a {
-    color: #80cbc4 !important;
-  }
+  a { color: #80cbc4; }
 
-  header, footer, nav {
+  header, nav {
     background: #1e1e1e !important;
     color: #ccc !important;
   }
 
-  h1, h2, h3, h4 {
-    color: #fff !important;
-  }
+  h1, h2, h3, h4 { color: #fff; }
 
-  /* Navigation links */
-  .site-nav .page-link {
-    color: #e4e4e4 !important;
-  }
+  .site-footer {
+    border-top-color: #333;
 
-  .site-nav .page-link:hover {
-    color: #80cbc4 !important;
-  }
+    .footer-heading { color: #fff; }
+    .footer-description { color: #aaa; }
 
-  /* Site title */
-  .site-title {
-    color: #ffffff !important;
+    .footer-nav .page-link {
+      color: #ccc;
+      &:hover { color: #fff; }
+    }
   }
 }
