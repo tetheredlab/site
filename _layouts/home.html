@@ -1,0 +1,43 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  {%- if paginator.posts.size > 0 -%}
+    <!-- Latest post -->
+    {%- assign latest = paginator.posts | first -%}
+    <article class="post">
+      <h1><a href="{{ latest.url | relative_url }}">{{ latest.title }}</a></h1>
+      <div class="post-content">
+        {{ latest.content }}
+      </div>
+    </article>
+
+    <!-- Older posts -->
+    {%- if paginator.posts.size > 1 -%}
+      <h2>Older Posts</h2>
+      <ul class="post-list">
+        {%- for post in paginator.posts offset:1 -%}
+          <li>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <h3><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+          </li>
+        {%- endfor -%}
+      </ul>
+    {%- endif -%}
+
+    <!-- Pagination -->
+    <div class="pagination">
+      {%- if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path | relative_url }}">&laquo; Newer</a>
+      {%- endif -%}
+
+      {%- if paginator.next_page %}
+        <a href="{{ paginator.next_page_path | relative_url }}">Older &raquo;</a>
+      {%- endif -%}
+    </div>
+
+  {%- endif -%}
+
+</div>
