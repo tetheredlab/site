@@ -17,5 +17,7 @@ Decades after Engelbart’s call to amplify human thought, we now chase that dre
 
 I too start this project with a tug of sorts. In conflict. Excited by the possibility of engaging in dialogue with what feels like humanity’s collective knowledge in its most organised and accessible form, yet uneasy about the cost at which it comes — the sanity of annotators, the hidden labour that sanitised the training data, the filtering of humanity’s worst so I can face its best. I have no resolution yet.  
 
-[^1]: Engelbart, D.C., 2023. Augmenting human intellect: A conceptual framework. In Augmented education in the global age (pp. 13-29). Routledge.
-[^2]: Bender, E.M., Gebru, T., McMillan-Major, A. and Shmitchell, S., 2021, March. On the dangers of stochastic parrots: Can language models be too big?🦜. In Proceedings of the 2021 ACM conference on fairness, accountability, and transparency (pp. 610-623).
+[^1]: Engelbart, D.C., 2023. Augmenting human intellect: A conceptual framework. In [Augmented education in the global age](https://www.taylorfrancis.com/chapters/oa-edit/10.4324/9781003230762-3/augmenting-human-intellect-douglas-engelbart) (pp. 13-29). 
+[^2]: Bender, E.M., Gebru, T., McMillan-Major, A. and Shmitchell, S., 2021, March. On the dangers of stochastic parrots: Can language models be too big?🦜. In [Proceedings of the 2021 ACM conference on fairness, accountability, and transparency](https://dl.acm.org/doi/abs/10.1145/3442188.3445922)(pp. 610-623).
+
+
