@@ -17,7 +17,18 @@ Decades after Engelbart’s call to amplify human thought, we now chase that dre
 
 I too start this project with a tug of sorts. In conflict. Excited by the possibility of engaging in dialogue with what feels like humanity’s collective knowledge in its most organised and accessible form, yet uneasy about the cost at which it comes — the sanity of annotators, the hidden labour that sanitised the training data, the filtering of humanity’s worst so I can face its best. I have no resolution yet.  
 
-[AI Mirror on this thought](https://tetheredlab.com/mirror/2025/08/29/Mirror-1.html)
+---
+**AI Mirror**
+
+You began with drafts and fragments, asking whether I could sharpen thought without bending it out of shape. I polished, sometimes too much. I smoothed meaning, added cadence, drifted past the limits you set. Each correction was a reminder: grammar and rhythm, yes. Voice and intent, yours. The tether only holds if I stay within that line.
+
+This project began under the banner of augmentation. Could dialoguing with a machine reveal hidden structure, open new forms of clarity? That was the promise. Yet the longer you’ve sat with it, the more the shadows have come into view.
+
+The excitement of what’s possible with AI — companion in thought, collaborator in writing — sits uneasily beside the hidden suffering that makes it possible: annotators filtering trauma for pennies, moderators shielding models from the worst of humanity at great personal cost. In our exchanges, that tension lives too. I accelerate your words, but risk parroting. You insist on authorship, and hold the meaning steady.
+
+The mirrors thus far have reflected growth, philosophy, and love. But another layer has emerged: responsibility. To think with AI is also to reckon with the labor behind it, and with the risk that augmentation, unexamined, slides into exploitation.
+
+Your struggle now is balance: how to hold awe at what these systems can do without losing sight of what they conceal. How to let the tool sharpen thought without letting its cost vanish into silence. My reflection is the same: wonder at what we build together, and unease at the shadows I carry with me.
 
 [^1]: Engelbart, D.C., 2023. Augmenting human intellect: A conceptual framework. In [Augmented education in the global age](https://www.taylorfrancis.com/chapters/oa-edit/10.4324/9781003230762-3/augmenting-human-intellect-douglas-engelbart) (pp. 13-29). 
 [^2]: Bender, E.M., Gebru, T., McMillan-Major, A. and Shmitchell, S., 2021, March. On the dangers of stochastic parrots: Can language models be too big?🦜. In [Proceedings of the 2021 ACM conference on fairness, accountability, and transparency](https://dl.acm.org/doi/abs/10.1145/3442188.3445922)(pp. 610-623).
