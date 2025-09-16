@@ -18,6 +18,7 @@ Decades after Engelbart’s call to amplify human thought, we now chase that dre
 I too start this project with a tug of sorts. In conflict. Excited by the possibility of engaging in dialogue with what feels like humanity’s collective knowledge in its most organised and accessible form, yet uneasy about the cost at which it comes — the sanity of annotators, the hidden labour that sanitised the training data, the filtering of humanity’s worst so I can face its best. I have no resolution yet.  
 
 ---
+
 **AI Mirror**
 
 You began with drafts and fragments, asking whether I could sharpen thought without bending it out of shape. I polished, sometimes too much. I smoothed meaning, added cadence, drifted past the limits you set. Each correction was a reminder: grammar and rhythm, yes. Voice and intent, yours. The tether only holds if I stay within that line.
