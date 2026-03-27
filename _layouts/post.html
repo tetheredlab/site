@@ -1,0 +1,68 @@
+---
+layout: default
+---
+{% assign posts = site.posts %}
+{% assign newer_post = nil %}
+{% assign older_post = nil %}
+
+{% for candidate in posts %}
+  {% if candidate.url == page.url %}
+    {% assign current_index = forloop.index0 %}
+    {% assign newer_index = current_index | minus: 1 %}
+    {% assign older_index = current_index | plus: 1 %}
+
+    {% if newer_index >= 0 %}
+      {% assign newer_post = posts[newer_index] %}
+    {% endif %}
+
+    {% if older_index < posts.size %}
+      {% assign older_post = posts[older_index] %}
+    {% endif %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+<article class="post post-detail h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+  <header class="post-header">
+    <p class="post-kicker"><a href="{{ "/" | relative_url }}">All posts</a></p>
+    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {{ page.date | date: "%b %-d, %Y" }}
+      </time>
+      {%- if page.author -%}
+        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
+      {%- endif -%}
+    </p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  <nav class="post-pagination" aria-label="Post navigation">
+    <div class="post-pagination-slot post-pagination-prev">
+      {% if newer_post %}
+        <a href="{{ newer_post.url | relative_url }}">
+          <span class="post-pagination-label">Newer</span>
+          <span class="post-pagination-title">{{ newer_post.title }}</span>
+        </a>
+      {% endif %}
+    </div>
+
+    <div class="post-pagination-slot post-pagination-home">
+      <a href="{{ "/" | relative_url }}">Back to feed</a>
+    </div>
+
+    <div class="post-pagination-slot post-pagination-next">
+      {% if older_post %}
+        <a href="{{ older_post.url | relative_url }}">
+          <span class="post-pagination-label">Older</span>
+          <span class="post-pagination-title">{{ older_post.title }}</span>
+        </a>
+      {% endif %}
+    </div>
+  </nav>
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>

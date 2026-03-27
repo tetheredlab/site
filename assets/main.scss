@@ -3,43 +3,107 @@
 
 @import "minima";  /* keep Minima base styles */
 
-/* ========== FOOTER OVERRIDE ========== */
-.site-footer {
-  text-align: center;
-  padding: 2rem 1rem;
-  border-top: 1px solid;
-
-  .footer-heading {
-    margin-bottom: 0.5rem;
-    font-size: 1.25rem;
-  }
-
-  .footer-description {
-    margin-bottom: 1rem;
-  }
-
-  .footer-nav {
-    margin-top: 1rem;
-
-    .page-link {
-      margin: 0 1rem;
-      text-decoration: none;
-    }
-  }
+.page-content .wrapper {
+  max-width: 760px;
 }
 
-/* ---------- LIGHT MODE ---------- */
+.site-header .wrapper {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.5rem;
+  justify-content: space-between;
+}
+
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+}
+
+.site-nav .page-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.home {
+  display: grid;
+  gap: 2rem;
+}
+
+.feed-stream {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.feed-card,
+.post-detail {
+  border: 1px solid rgba(127, 127, 127, 0.2);
+  border-radius: 18px;
+  padding: 1.5rem;
+}
+
+.feed-card-title,
+.post-title {
+  margin-bottom: 0.5rem;
+}
+
+.feed-card-body > :last-child,
+.post-content > :last-child {
+  margin-bottom: 0;
+}
+
+.feed-card-action {
+  margin-bottom: 0;
+  margin-top: 1rem;
+}
+
+.post-kicker {
+  font-size: 0.95rem;
+  margin-bottom: 0.75rem;
+}
+
+.post-pagination {
+  border-top: 1px solid rgba(127, 127, 127, 0.2);
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+}
+
+.post-pagination-slot a {
+  display: block;
+  text-decoration: none;
+}
+
+.post-pagination-home {
+  text-align: center;
+}
+
+.post-pagination-next {
+  text-align: right;
+}
+
+.post-pagination-label {
+  color: #777;
+  display: block;
+  font-size: 0.85rem;
+  margin-bottom: 0.25rem;
+  text-transform: uppercase;
+}
+
+.post-pagination-title {
+  display: block;
+  font-weight: 600;
+}
+
+/* ========== FOOTER OVERRIDE ========== */
 @media (prefers-color-scheme: light) {
-  .site-footer {
-    border-top-color: #ddd;
-
-    .footer-heading { color: #222; }
-    .footer-description { color: #666; }
-
-    .footer-nav .page-link {
-      color: #333;
-      &:hover { color: #000; }
-    }
+  .feed-card,
+  .post-detail {
+    background: #fcfcfc;
+    border-color: #e6e6e6;
   }
 }
 
@@ -52,22 +116,37 @@
 
   a { color: #80cbc4; }
 
-  header, nav {
+  header {
     background: #1e1e1e !important;
     color: #ccc !important;
   }
 
   h1, h2, h3, h4 { color: #fff; }
 
-  .site-footer {
-    border-top-color: #333;
+  .feed-card,
+  .post-detail {
+    background: #171717;
+    border-color: #303030;
+  }
 
-    .footer-heading { color: #fff; }
-    .footer-description { color: #aaa; }
+  .post-pagination {
+    border-top-color: #303030;
+  }
+}
 
-    .footer-nav .page-link {
-      color: #ccc;
-      &:hover { color: #fff; }
-    }
+@media (max-width: 640px) {
+  .feed-card,
+  .post-detail {
+    border-radius: 14px;
+    padding: 1.1rem;
+  }
+
+  .post-pagination {
+    grid-template-columns: 1fr;
+  }
+
+  .post-pagination-home,
+  .post-pagination-next {
+    text-align: left;
   }
 }

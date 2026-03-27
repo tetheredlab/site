@@ -17,6 +17,15 @@
     <header class="site-header" role="banner">
       <div class="wrapper">
         <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title }}</a>
+
+        {% assign nav_pages = site.html_pages | where_exp: "item", "site.nav_pages contains item.path" %}
+        {% if nav_pages.size > 0 %}
+          <nav class="site-nav" aria-label="Primary">
+            {% for item in nav_pages %}
+              <a class="page-link" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+            {% endfor %}
+          </nav>
+        {% endif %}
       </div>
     </header>
 
@@ -25,21 +34,5 @@
         {{ content }}
       </div>
     </main>
-
-   <footer class="site-footer">
-  <div class="wrapper">
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <p class="footer-description">{{ site.description | escape }}</p>
-
-    <nav class="footer-nav">
-      {% for page in site.pages %}
-        {% if page.title %}
-          <a class="page-link" href="{{ page.url | relative_url }}">{{ page.title }}</a>
-        {% endif %}
-      {% endfor %}
-    </nav>
-  </div>
-</footer>
   </body>
 </html>
